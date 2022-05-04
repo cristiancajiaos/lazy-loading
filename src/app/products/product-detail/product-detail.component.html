@@ -1,0 +1,23 @@
+<div class="card mb-3" *ngIf="product">
+  <div class="card-body">
+    <h1>{{product.product}}</h1>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <strong>Supplier ID:</strong> {{product.supplierId}}
+      </div>
+      <div class="col-12 col-lg-6">
+        <strong>Category ID:</strong> {{product.categoryId}}
+      </div>
+      <div class="col-12 col-lg-6">
+        <strong>Unit: </strong> {{product.unit}}
+      </div>
+      <div class="col-12 col-lg-6">
+        <strong>Price:</strong> {{product.price}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<button class="btn btn-success" routerLink="/products/list">
+  Go To List
+</button>

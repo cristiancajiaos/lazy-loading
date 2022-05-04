@@ -4,9 +4,9 @@
       <div class="card-body">
         <h4>{{product.product}}</h4>
         <p>{{product.unit}}</p>
-        <button class="btn btn-outline-secondary" routerLink="[product.id, 'detail']">
+        <a class="btn btn-outline-secondary" routerLink="/products/{{product.id}}/detail">
           Show Product
-        </button>
+        </a>
       </div>
     </div>
   </div>
