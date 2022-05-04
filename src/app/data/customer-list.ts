@@ -1,4 +1,5 @@
 import { Customer } from './../interfaces/customer';
+
 export const CUSTOMER_LIST: Array<Customer> = [
   {
     id: 100,
